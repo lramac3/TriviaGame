@@ -1,0 +1,50 @@
+li {
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+    font-size: 40px;
+    text-align: center;
+    width: 50%;
+    border: 1px black solid;
+    font-family: "Cousine", monospace;
+}
+
+li:hover {
+    background-color: #507847;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-family: "Cousine", monospace;
+}
+
+#result-area {
+    text-align: center;
+}
+
+.all-content {
+    margin-top: 2rem;
+    /* background-color: rgb(165, 248, 146); */
+}
+
+.jumbotron {
+    background-color: rgb(165, 248, 146);
+}
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.btn {
+    font-family: "Cousine", monospace;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    color: black;
+    border-color: black;
+}
+
+img {
+    max-height: 400px;
+}
