@@ -1,6 +1,6 @@
 ////////////////////////// TO DO
 function playGame() {
-    var queryUrl =
+    let queryUrl =
         "https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple";
 
     $.ajax({
@@ -14,21 +14,21 @@ function playGame() {
         // round counter stays OUTSIDE -- this increments up every time you switch to the new round
 
         // this defines what round we are on/what section of the array we should
-        // var roundCounter = 0;
-        // var arrIndex;
+        // let roundCounter = 0;
+        // let arrIndex;
 
-        // var correctAnswers = 0;
-        // var incorrectAnswers = 0;
-        // var timeOutAnswers = 0;
-        var roundCounter;
-        var arrIndex;
-        var correctAnswers;
-        var incorrectAnswers;
-        var timeOutAnswers;
-        var wrongAnswers;
+        // let correctAnswers = 0;
+        // let incorrectAnswers = 0;
+        // let timeOutAnswers = 0;
+        let roundCounter;
+        let arrIndex;
+        let correctAnswers;
+        let incorrectAnswers;
+        let timeOutAnswers;
+        let wrongAnswers;
 
         // this is the seconds counter for each round
-        var count = 30;
+        let count = 30;
 
         // create a function to restart the entire game
         function restartGame() {
